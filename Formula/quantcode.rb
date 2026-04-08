@@ -7,12 +7,12 @@ class Quantcode < Formula
   on_macos do
     on_arm do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/v#{version}/quantcode-darwin-arm64.zip"
-      sha256 "e05b5b9c94172069a6a022afb19b44ca479e7136312930a38013d69231f61680"
+      sha256 "c781f29711f5e07a6cbb66cad60d938a9f2ca1dbfa57f2df690a0724cdbe70d9"
     end
 
     on_intel do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/v#{version}/quantcode-darwin-x64-baseline.zip"
-      sha256 "e05b5b9c94172069a6a022afb19b44ca479e7136312930a38013d69231f61680"
+      sha256 "c781f29711f5e07a6cbb66cad60d938a9f2ca1dbfa57f2df690a0724cdbe70d9"
     end
   end
 
