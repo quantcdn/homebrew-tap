@@ -3,12 +3,12 @@ cask "quantcode-desktop" do
 
   on_arm do
     url "https://github.com/quantcdn/quantcode/releases/download/v#{version}/quantcode-desktop-mac-arm64.dmg"
-    sha256 "PLACEHOLDER"
+    sha256 "21b98e404f3ff73e68c28faa5c07ad2edf3aa093b740843f40b1fc0e70fc395c"
   end
 
   on_intel do
     url "https://github.com/quantcdn/quantcode/releases/download/v#{version}/quantcode-desktop-mac-x64.dmg"
-    sha256 "PLACEHOLDER"
+    sha256 "21b98e404f3ff73e68c28faa5c07ad2edf3aa093b740843f40b1fc0e70fc395c"
   end
 
   name "QuantCode"
