@@ -15,7 +15,7 @@ cask "quantcode-desktop" do
   desc "AI coding assistant for Australian Government developers"
   homepage "https://code.quantcdn.io"
 
-  app "QuantCode Dev.app"
+  app "QuantCode.app"
 
   zap trash: [
     "~/Library/Application Support/cloud.quantcdn.code",
