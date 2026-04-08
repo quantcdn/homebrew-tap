@@ -6,13 +6,13 @@ class Quantcode < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/quantcdn/quantcode/releases/download/v#{version}/quantcode-darwin-arm64.zip"
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v#{version}/quantcode-darwin-arm64.zip"
       sha256 "0757852da657aa1f5752d1311b844a72e09e3f23be73a64a2ff84ef53f56e8a5"
     end
 
     on_intel do
-      url "https://github.com/quantcdn/quantcode/releases/download/v#{version}/quantcode-darwin-x64-baseline.zip"
-      sha256 "0757852da657aa1f5752d1311b844a72e09e3f23be73a64a2ff84ef53f56e8a5"
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v#{version}/quantcode-darwin-x64-baseline.zip"
+      sha256 "PLACEHOLDER"
     end
   end
 
