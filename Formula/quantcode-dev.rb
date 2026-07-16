@@ -1,33 +1,28 @@
 class QuantcodeDev < Formula
   desc "AI coding assistant for Australian Government developers (dev channel)"
   homepage "https://code.quantcdn.io"
-  version "0.0.0-dev.20260701.g44dee20"
+  version "0.0.0-dev.20260716.ge6ee10a"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-darwin-arm64.zip"
-      sha256 "7a8ec5cddb14aae7236f01281829a18f18a26372782458f57a540cf5fc8b9af7"
+      sha256 "ac3c45f8c1caf086ae73d3d3392613a19b1c75d8955926a1efe25a2924312f13"
     end
     on_intel do
-      odie <<~EOS
-        QuantCode does not support Intel Macs.
-        If you are on an Apple Silicon Mac running Rosetta, reinstall Homebrew natively:
-          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        After reinstalling, ensure /opt/homebrew/bin is in your PATH, then retry.
-        See: https://code.quantcdn.io/docs/install
-      EOS
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-darwin-x64.zip"
+      sha256 "c9b6ff27f261a289c34bf59964feda1beffd254cbe80e854079d96b271c374fa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-linux-arm64.tar.gz"
-      sha256 "51d44bffe05165510dd22b373bd37c739c7df4471a4ae19a4f9b49f55fdbcbcd"
+      sha256 "22094fb60b64666d727727a8c1d9891d681f0c8adb40d4f7f26cdfd05ecf083e"
     end
     on_intel do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-linux-x64.tar.gz"
-      sha256 "b779398600a376af672c8b9294b353f37bada8ddca2f67b6afe6f7bdd291935b"
+      sha256 "6232e3cb99bf5e1efc73202f531326f27f4063b720e9126407a55d4cf2d9f956"
     end
   end
 

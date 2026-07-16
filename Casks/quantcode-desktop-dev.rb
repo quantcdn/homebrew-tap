@@ -1,8 +1,16 @@
 cask "quantcode-desktop-dev" do
-  version "0.0.0-dev.20260701.g44dee20"
-  sha256 "e43278bdd349b11bdb5706a4bb1497f1e5bfc903fc3125adbbf36ffc8742799d"
+  version "0.0.0-dev.20260716.ge6ee10a"
 
-  url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-desktop-dev-mac-arm64.dmg"
+  on_arm do
+    url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-desktop-dev-mac-arm64.dmg"
+    sha256 "8537b92aabfb5668c8ef5c3d1c7ce99401052b8eb25e9d755ca84103fd422e09"
+  end
+
+  on_intel do
+    url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-desktop-dev-mac-x64.dmg"
+    sha256 "610a0721feecf26ffdf33a2d3c2eec556b05fb20c2b2335d59237b58d9847e24"
+  end
+
   name "QuantCode Dev"
   desc "AI coding assistant for Australian Government developers (dev channel)"
   homepage "https://code.quantcdn.io"
