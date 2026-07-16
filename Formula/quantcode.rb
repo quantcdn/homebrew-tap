@@ -1,33 +1,28 @@
 class Quantcode < Formula
   desc "AI coding assistant for Australian Government developers"
   homepage "https://code.quantcdn.io"
-  version "1.4.3-quant.43"
+  version "1.4.3-quant.44"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.43/quantcode-darwin-arm64.zip"
-      sha256 "309339eb6c2b39c9328ce7bec0ba925e215760237ff14e7f6d0346b771dc3fc9"
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.44/quantcode-darwin-arm64.zip"
+      sha256 "234e0329be12687be60bc5905a5c842822514336d0352a4b04b38c3d015715d8"
     end
     on_intel do
-      odie <<~EOS
-        QuantCode does not support Intel Macs.
-        If you are on an Apple Silicon Mac running Rosetta, reinstall Homebrew natively:
-          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        After reinstalling, ensure /opt/homebrew/bin is in your PATH, then retry.
-        See: https://code.quantcdn.io/docs/install
-      EOS
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.44/quantcode-darwin-x64.zip"
+      sha256 "b09acc7aa03893f48582cb8c94ced71a2927114a006589aea739b5cbf802a726"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.43/quantcode-linux-arm64.tar.gz"
-      sha256 "09490d01f0c94615ceff62e35503944d6a4324c4790ff4d5257fe8d08cf67bd2"
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.44/quantcode-linux-arm64.tar.gz"
+      sha256 "c0223eb44bccac2ba2c45ab1f0dca02f9ad723dfce8f4d54a18b0abd17538c5b"
     end
     on_intel do
-      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.43/quantcode-linux-x64.tar.gz"
-      sha256 "b71837bf136d785d098a8be222b9473f73cc8a7de97cb71401a8e21e9951ad8f"
+      url "https://github.com/quantcdn/quantcode-releases/releases/download/v1.4.3-quant.44/quantcode-linux-x64.tar.gz"
+      sha256 "2c185d7396bb7c76f1fd64f356d1d0518168c7dde2b4bd668c470e09ad3af996"
     end
   end
 
