@@ -1,28 +1,28 @@
 class QuantcodeDev < Formula
   desc "AI coding assistant for Australian Government developers (dev channel)"
   homepage "https://code.quantcdn.io"
-  version "0.0.0-dev.20261030.g635f19f"
+  version "0.0.0-dev.20261101.gca8482f"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-darwin-arm64.zip"
-      sha256 "ca196c0df8e2ac0f7cc4cdadc54c4f0ac098aded028667992375a036c7814be8"
+      sha256 "45ca037abd822b974b0a9635633cecbcf6daaf29a4585004934cbf24de563e79"
     end
     on_intel do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-darwin-x64.zip"
-      sha256 "a8bf0c1a88004c414c4e01ad73e5d902e165cb5c8ff2e33d8b99f1360bfa2e9c"
+      sha256 "7a3d1594afb22ea12b4547a25af9480ce0069bbd454aae47e09fd0dfe420fa5d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-linux-arm64.tar.gz"
-      sha256 "2dbac678725e627ca384acff2605c4a85347a6439407d77bae9874f4c07135a0"
+      sha256 "05478855e2f690a0e2f164df16b39db2a26fb1e315602d65a7469e42d355c534"
     end
     on_intel do
       url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-dev-linux-x64.tar.gz"
-      sha256 "5a996031a4fb59fa6138b70dbe07d75162eb69c05f2168991bfadddc77cc7c10"
+      sha256 "9a921386c5beea3ebcd84a1d4ea63cd8fbba105bd71de9738ce181e92214632c"
     end
   end
 
