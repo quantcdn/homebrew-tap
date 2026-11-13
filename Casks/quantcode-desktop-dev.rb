@@ -1,14 +1,14 @@
 cask "quantcode-desktop-dev" do
-  version "0.0.0-dev.20261113.g92362f9"
+  version "0.0.0-dev.20261113.g88a5ff6"
 
   on_arm do
     url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-desktop-dev-mac-arm64.dmg"
-    sha256 "faf83604eec03be75322bac6b0da3ece52f81dd8e787b59e406ed54560ad1e8e"
+    sha256 "4377ec0382a6b8901cb11746f318d9bbc40f3d0d85cb369c2e5d70ce2fa6ad5c"
   end
 
   on_intel do
     url "https://github.com/quantcdn/quantcode-releases/releases/download/latest-dev/quantcode-desktop-dev-mac-x64.dmg"
-    sha256 "5395e8cff0bf2be1083810597d2e3377381a8736185094e19cd5f37d012d084f"
+    sha256 "49b8aaa454233c0d3c0f90a98bc76f2f4609ad8cb909997dd1ed0034db016656"
   end
 
   name "QuantCode Dev"
